@@ -1,0 +1,49 @@
+.homeContainer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.345)), url('../../../assets/images/gradient-galaxy-background_2/9742406.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeName {
+    font-size: var(--font-size-subtitle);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.426);
+    color: var(--gray-light);
+}
+
+.homeTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeProfileName {
+    font-size: var(--font-size-title);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.426);
+}
+
+.homeSkillName {
+    font-size: var(--font-size-text);  
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.426);
+}
+
+.homeSkillName::after, .homeSkillName::before {
+    content: "|";
+    text-align: center;
+    display: inline-block;
+    padding: 0 8px 0 8px;
+}
+

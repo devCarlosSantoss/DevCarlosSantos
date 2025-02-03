@@ -1,9 +1,25 @@
 :root {
-    --primary-color: #170459;
-    --color-white: #ffffff;
+    /* 🎨 Paleta de Cores */
+    --primary-color: #0A0140;   /* Cor principal (fundo) */
+    --secondary-color: #150259; /* Cor secundária (apoio) */
+    --tertiary-color: #060126;  /* Cor de suporte (detalhes escuros) */
+    --accent-color: #F213E3;    /* Cor de destaque (botões, links) */
+    --highlight-color: #F2A35E; /* Cor de contraste suave */
+    --neutral-color: #FFFFFF;   /* Branco para textos principais */
+    --gray-light: #CCCCCC;      /* Cinza claro para textos secundários */
+
+    /* ✍️ Tipografia */
+    --main-font: "Poppins", sans-serif;
+    --font-size-base: 16px;     /* Tamanho base da fonte */
+    --font-size-title: 2.5rem;  /* Títulos */
+    --font-size-subtitle: 1.75rem; 
+    --font-size-text: 1rem;     /* Texto padrão */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 }
 
 .AppStyle {
     background-color: #EBECEE;
-    color: var(--color-white);
+    color: var(--neutral-color);
+    font-family: var(--main-font);
 }
